@@ -1,62 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Galindo');
+body{
+    background-color:black;
+    font-family: 'Galindo', cursive;
+}
 .mainbox{
     background-color: black;
     width: 800px;
     margin:  0 auto;
 }
 .leftside{
-    background-color: white;
+    color: red;
+    background-color: black;
     width: 100px;
     float: left;
 }
 .main{
     color: red;
     text-align: center;
-    background-color:black
-;
+    background-color:black;
+    font-family: 'Galindo', cursive;
+    font-size: 20px;
     width: 600px;
     float: left;
 }
 .rightside{
-    background-color: white;
+    color: red;
+    background-color: black;
     width: 100px;
     float: left;
 }
 .footer{
-    background-color: white;
+    color: red;
+    background-color: black;
 }
 .menu{
     text-align: center;
+    padding-bottom: 15px;
 }
 .menu>ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
     overflow: hidden;
     background-color: black;
 }
+
 .menu>ul>li{
-    width: 100px;
+    width: 155px;
     list-style-type: none;
     display: inline-block;
     background-color: black;
     position: relative;
-    font-family: Tahoma,serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 .menu>ul>li>a{
-    display: inline;
+    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 25px 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 .menu>ul>li>a:hover{
     background-color: red;
 }
+.active{
+    background-color: red;
+}
 .footer>img{
-    display: block;
+    display: inline-block;
     margin: auto;
-    width: 30%;
+    width: 32%;
     height: auto;
     align-content: center;
 }
