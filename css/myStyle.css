@@ -1,18 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Galindo');
 body{
-    background-color:black;
+    background-color:white;
     font-family: 'Galindo', cursive;
+}
+@media screen and (max-device-width:  600px) {
+    .leftside,.rightside,.main {
+        width: 100%;
+    }
+}
+.resize{
+    width: 20%;
+    height: auto;
+    margin: 0;
+}
+.resizev{
+    width: 50%;
+    height: auto;
 }
 .mainbox{
     background-color: black;
-    width: 800px;
+    width: 100%;
     margin:  0 auto;
 }
 .leftside{
     color: red;
     background-color: black;
-    width: 100px;
+    width: 20%;
     float: left;
+}
+.leftside>a{
+    color: red;
 }
 .main{
     color: red;
@@ -20,13 +37,13 @@ body{
     background-color:black;
     font-family: 'Galindo', cursive;
     font-size: 20px;
-    width: 600px;
+    width: 60%;
     float: left;
 }
 .rightside{
     color: red;
     background-color: black;
-    width: 100px;
+    width: 20%;
     float: left;
 }
 .footer{
@@ -67,8 +84,6 @@ body{
 }
 .footer>img{
     display: inline-block;
-    margin: auto;
-    width: 32%;
+    width: 31%;
     height: auto;
-    align-content: center;
 }
