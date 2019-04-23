@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Galindo');
+@import "../pictures";
 body{
-    background-color:white;
+    background-image:  url("../pictures/background.png");
     font-family: 'Galindo', cursive;
 }
-@media screen and (max-device-width:  600px) {
-    .leftside,.rightside,.main {
-        width: 100%;
-    }
+.row {
+    display: flex; /* equal height of the children */
+}
+
+.col {
+    flex: 1; /* additionally, equal width */
 }
 .resize{
     width: 20%;
@@ -19,8 +22,8 @@ body{
 }
 .mainbox{
     background-color: black;
-    width: 100%;
-    margin:  0 auto;
+    width: 1135px;
+    margin: auto;
 }
 .leftside{
     color: red;
@@ -63,7 +66,6 @@ body{
 }
 
 .menu>ul>li{
-    width: 155px;
     list-style-type: none;
     display: inline-block;
     background-color: black;
